@@ -1,0 +1,52 @@
+body {
+    background-image: url(../images/court.jpg);
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo {
+    height: 80px;
+    width: 35px;
+}
+
+.guess {
+    text-align: center;
+}
+
+.wins {
+    text-align: center;
+}
+
+#gamebox {
+    padding: 30px;
+    height: 300px;
+}
+
+#word {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#current {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#hint {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+#image {
+    position: relative;
+    bottom: 60px;
+}
+

@@ -1,26 +1,84 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script type="text/javascript" src="assets/javascript/game.js"></script>
-    <title>Hangman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>NBA Team Hangman</title>
 </head>
 
 <body>
+
+        <div class="container">
+            <div class="card">
+                <h1 class="title">
+                    <img src="assets/images/nba-logo.png" class="logo"> NBA Team Hangman
+                    <img src="assets/images/nba-logo.png" class="logo">
+                </h1>
+
+
+
+                <h2 class="guess">Guess any letter on your keyboard to start!</h2> 
+                <p id="hint">HINT: Don't forget one of the teams contains numbers</p>
+
+
+                <h3 class="wins">Win Streak:
+                        <span id="wins"></span>
+                    </h3>
+
+                <hr>
+    
+            </div>
+
+            
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 card" id="gamebox" style="max-height: 100%">
+            <h3>Remaining Guesses:
+                <span id="chances"></span>
+            </h3>
+
+
+
+            <h3>Guessed Letters: <span id="guessedletters"></span> </h3>
+            
             <br>
-            <h1>Guess a letter to start</h1>
-                <h3>Total Wins: </h3> <span id="wins"></span>
 
-                <h3>Remaining Guesses: <span id="chances"></span>
-                    
-                <h3>Guessed Letters:</h3> <span id="guessedletters"></span>
-                
-                    
-                    <h3>Current Word:</h3> <span id="word"></span> 
-                    <span id="spaces"></span>
 
-     
+            <h3 id="current">Current Word</h3>
+
+            <br>
+
+            <span id="word"></span>
+        </div>
+        
+
+        
+        <div class="col-lg-1"></div>
+        <div class="col-lg-3">
+
+            <div id="image"></div>
+            <div class="col-lg-1"></div>
+            <div id="image"></div>
+
+
+        </div>
+
+    </div>
+    
+
+    <footer></footer>
 </body>
-</html>
 
+</html>
